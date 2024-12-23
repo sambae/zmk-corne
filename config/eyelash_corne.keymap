@@ -55,7 +55,7 @@
             bindings = <
 &mt ESCAPE LEFT_ALT  &kp Q  &kp W  &kp F  &kp P            &kp G                                         &kp C_BRIGHTNESS_INC              &kp J          &kp L            &kp U      &kp Y    &kp SEMICOLON  &kp GRAVE
 &kp TAB              &kp A  &kp R  &kp S  &kp T            &kp D                         &kp K_PREVIOUS  &kp K_PLAY_PAUSE      &kp K_NEXT  &kp H          &kp N            &kp E      &kp I    &kp O          &kp SQT
-&mo 2                &kp Z  &kp X  &kp C  &kp V            &kp B           &kp K_MUTE                    &kp C_BRIGHTNESS_DEC              &kp N          &kp M            &kp COMMA  &kp DOT  &kp FSLH       &tog 1
+&mo 2                &kp Z  &kp X  &kp C  &kp V            &kp B           &kp K_MUTE                    &kp C_BRIGHTNESS_DEC              &kp K          &kp M            &kp COMMA  &kp DOT  &kp FSLH       &tog 1
                                    &mo 1  &mt LCTRL SPACE  &mt LGUI ENTER                                                                  &kp BACKSPACE  &kp RIGHT_SHIFT  &mo 2
             >;
 
