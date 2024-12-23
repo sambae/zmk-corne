@@ -1,6 +1,6 @@
 layers:
   COLEMAK:
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:keyboard-esc$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - Q
   - W
   - F
