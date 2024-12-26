@@ -41,13 +41,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: SYMBOL, h: toggle}
+  - {t: '-', s: _}
   - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: LGUI}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
-  - UTIL
+  - SYMBOL
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -96,7 +96,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
-  - .
+  - {t: ., type: held alternate}
   UTIL:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -145,4 +145,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
