@@ -43,8 +43,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - SYMBOL
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: LGUI}
+  - {t: LGUI, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: LGUI}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - SYMBOL
