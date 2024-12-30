@@ -31,6 +31,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
         bhm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -70,10 +71,10 @@
         default_layer {
             display-name = "COLEMAK";
             bindings = <
-&kp TAB  &kp Q           &kp W             &kp F          &kp P         &kp G                                    &kp C_FAST_FORWARD              &kp J          &kp L              &kp U       &kp Y        &kp SEMICOLON    &kp GRAVE
-&mo 2    &mt LEFT_ALT A  &mt LEFT_SHIFT R  &mt LCTRL S    &mt LGUI T    &kp D                    &kp K_PREVIOUS  &kp K_PLAY_PAUSE    &kp K_NEXT  &kp H          &mt RIGHT_SHIFT N  &mt LGUI E  &mt RCTRL I  &mt RIGHT_ALT O  &kp SQT
-&kp AT   &kp Z           &kp X             &kp C          &kp V         &kp B      &kp K_MUTE                    &kp C_REWIND                    &kp K          &kp M              &kp COMMA   &kp DOT      &kp FSLH         &mo 1
-                                           &kp LG(SPACE)  &lt 1 ESCAPE  &kp ENTER                                                                &kp BACKSPACE  &kp SPACE          &kp MINUS
+&kp GRAVE  &kp Q           &kp W             &kp F          &kp P         &kp G                                      &kp C_FAST_FORWARD              &kp J            &kp L              &kp U       &kp Y        &kp SEMICOLON    &kp EQUAL
+&kp TAB    &mt LEFT_ALT A  &mt LEFT_SHIFT R  &mt LCTRL S    &mt LGUI T    &kp D                      &kp K_PREVIOUS  &kp K_PLAY_PAUSE    &kp K_NEXT  &kp H            &mt RIGHT_SHIFT N  &mt LGUI E  &mt RCTRL I  &mt RIGHT_ALT O  &kp SQT
+&kp AT     &kp Z           &kp X             &kp C          &kp V         &kp B        &kp K_MUTE                    &kp C_REWIND                    &kp K            &kp M              &kp COMMA   &kp DOT      &kp FSLH         &mo 2
+                                             &kp LG(SPACE)  &lt 1 ESCAPE  &lt 2 ENTER                                                                &lt 1 BACKSPACE  &kp SPACE          &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
