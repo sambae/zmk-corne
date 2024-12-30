@@ -74,7 +74,7 @@
             display-name = "COLEMAK";
             bindings = <
 &kp TAB       &kp Q           &kp W             &kp F          &kp P           &kp G                                      &kp C_FAST_FORWARD              &kp J            &kp L           &kp U        &kp Y              &kp SEMICOLON    &kp GRAVE
-&lt 2 ESCAPE  &mt LEFT_ALT A  &mt LEFT_SHIFT R  &mt LCTRL S    &mt LGUI T      &kp D                      &kp K_PREVIOUS  &kp K_PLAY_PAUSE    &kp K_NEXT  &kp H            &mt LEFT_GUI N  &mt RCTRL E  &mt RIGHT_SHIFT I  &mt RIGHT_ALT O  &kp SQT
+&lt 2 ESCAPE  &hm LEFT_ALT A  &hm LEFT_SHIFT R  &hm LCTRL S    &hm LGUI T      &kp D                      &kp K_PREVIOUS  &kp K_PLAY_PAUSE    &kp K_NEXT  &kp H            &hm LEFT_GUI N  &hm RCTRL E  &hm RIGHT_SHIFT I  &hm RIGHT_ALT O  &kp SQT
 &kp AT        &kp Z           &kp X             &kp C          &kp V           &kp B        &kp K_MUTE                    &kp C_REWIND                    &kp K            &kp M           &kp COMMA    &kp DOT            &kp FSLH         &kp EQUAL
                                                 &kp LG(SPACE)  &kp LEFT_SHIFT  &lt 1 ENTER                                                                &lt 1 BACKSPACE  &kp SPACE       &kp MINUS
             >;
