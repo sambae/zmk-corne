@@ -6,7 +6,7 @@ layers:
   - F
   - P
   - G
-  - FAST FORWARD
+  - $$mdi:arrow-up-bold$$
   - J
   - L
   - U
@@ -19,9 +19,9 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: T, h: LGUI}
   - D
-  - PREVIOUS
-  - PLAY PAUSE
-  - NEXT
+  - $$mdi:arrow-left-bold$$
+  - Sft+Gui+ 3
+  - $$mdi:arrow-right-bold$$
   - H
   - {t: N, h: '$$mdi:apple-keyboard-command$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
@@ -35,7 +35,7 @@ layers:
   - V
   - B
   - MUTE
-  - REWIND
+  - $$mdi:arrow-down-bold$$
   - K
   - M
   - {t: ',', s: <}
@@ -55,7 +55,7 @@ layers:
   - '#'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - AC SCROLL UP
+  - Gui+Sft+ 4
   - _
   - '7'
   - '8'
@@ -68,9 +68,9 @@ layers:
   - ^
   - (
   - )
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:skip-previous$$
+  - PLAY PAUSE
+  - $$mdi:skip-next$$
   - {t: '-', s: _}
   - '4'
   - '5'
@@ -104,7 +104,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - Ctl+Alt+ $$mdi:arrow-up-bold$$
   - F6
   - F7
   - F8
@@ -117,9 +117,9 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - Alt+Ctl+ $$mdi:arrow-left-bold$$
+  - {t: 'Alt+Ctl+ $$mdi:keyboard-return$$', type: enter}
+  - Alt+Ctl+ $$mdi:arrow-right-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -133,7 +133,7 @@ layers:
   - RGB EFF
   - RGB EFF
   - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - Alt+Ctl+ $$mdi:arrow-down-bold$$
   - RGB SPD
   - RGB SPI
   - RGB BRD
@@ -143,6 +143,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
