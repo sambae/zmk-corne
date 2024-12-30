@@ -13,7 +13,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '`', s: '~'}
-  - UTIL
+  - {t: '$$mdi:keyboard-esc$$', h: UTIL}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
