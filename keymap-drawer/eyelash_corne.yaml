@@ -1,6 +1,6 @@
 layers:
   COLEMAK:
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - F
@@ -12,8 +12,8 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '=', s: +}
-  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
+  - UTIL
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
@@ -23,9 +23,9 @@ layers:
   - PLAY PAUSE
   - NEXT
   - H
-  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: E, h: LGUI}
-  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '''', s: '"'}
   - '@'
@@ -41,10 +41,10 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - UTIL
+  - {t: '=', s: +}
   - Gui+ $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-esc$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-return$$', h: UTIL}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
   - {t: '-', s: _}
@@ -92,8 +92,8 @@ layers:
   - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {type: held alternate}
   - '0'
   - .
@@ -111,7 +111,7 @@ layers:
   - F9
   - F10
   - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -139,10 +139,10 @@ layers:
   - RGB BRD
   - RGB BRI
   - END
-  - {t: PG DN, type: held}
+  - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
