@@ -1,6 +1,6 @@
 layers:
   COLEMAK:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - F
@@ -13,7 +13,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: '`', s: '~'}
-  - {t: '$$mdi:keyboard-esc$$', h: UTIL}
+  - {t: '$$mdi:keyboard-tab$$', h: UTIL}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
