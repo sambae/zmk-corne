@@ -73,9 +73,9 @@
         default_layer {
             display-name = "COLEMAK";
             bindings = <
-&kp ESCAPE  &kp Q           &kp W             &kp F          &kp P           &kp B                                &kp UP_ARROW                     &kp J            &kp L           &kp U        &kp Y              &kp SEMICOLON    &kp GRAVE
-&lt 2 TAB   &hm LEFT_ALT A  &hm LEFT_SHIFT R  &hm LCTRL S    &hm LGUI T      &kp G                      &kp LEFT  &kp LS(LG(NUMBER_3))  &kp RIGHT  &kp M            &hm LEFT_GUI N  &hm RCTRL E  &hm RIGHT_SHIFT I  &hm RIGHT_ALT O  &kp SQT
-&kp AT      &kp Z           &kp X             &kp C          &kp D           &kp V        &kp K_MUTE              &kp DOWN                         &kp K            &kp H           &kp COMMA    &kp DOT            &kp FSLH         &kp EQUAL
+&kp ESCAPE  &kp Q           &kp W             &kp F          &kp P           &kp G                                &kp UP_ARROW                     &kp J            &kp L           &kp U        &kp Y              &kp SEMICOLON    &kp GRAVE
+&lt 2 TAB   &hm LEFT_ALT A  &hm LEFT_SHIFT R  &hm LCTRL S    &hm LGUI T      &kp D                      &kp LEFT  &kp LS(LG(NUMBER_3))  &kp RIGHT  &kp H            &hm LEFT_GUI N  &hm RCTRL E  &hm RIGHT_SHIFT I  &hm RIGHT_ALT O  &kp SQT
+&kp AT      &kp Z           &kp X             &kp C          &kp V           &kp B        &kp K_MUTE              &kp DOWN                         &kp K            &kp M           &kp COMMA    &kp DOT            &kp FSLH         &kp EQUAL
                                               &kp LG(SPACE)  &kp LEFT_SHIFT  &lt 1 ENTER                                                           &lt 1 BACKSPACE  &kp SPACE       &kp MINUS
             >;
 
