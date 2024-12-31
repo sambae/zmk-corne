@@ -5,7 +5,7 @@ layers:
   - W
   - F
   - P
-  - G
+  - B
   - $$mdi:arrow-up-bold$$
   - J
   - L
@@ -18,11 +18,11 @@ layers:
   - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: T, h: LGUI}
-  - D
+  - G
   - $$mdi:arrow-left-bold$$
   - Sft+Gui+ 3
   - $$mdi:arrow-right-bold$$
-  - H
+  - M
   - {t: N, h: '$$mdi:apple-keyboard-command$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
@@ -32,12 +32,12 @@ layers:
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - MUTE
   - $$mdi:arrow-down-bold$$
   - K
-  - M
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
