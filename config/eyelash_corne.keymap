@@ -75,8 +75,8 @@
             bindings = <
 &kp ESCAPE  &kp Q           &kp W             &kp F          &kp P           &kp G                                &kp UP_ARROW                     &kp J            &kp L           &kp U        &kp Y              &kp SEMICOLON    &kp GRAVE
 &lt 2 TAB   &hm LEFT_ALT A  &hm LEFT_SHIFT R  &hm LCTRL S    &hm LGUI T      &kp D                      &kp LEFT  &kp LS(LG(NUMBER_3))  &kp RIGHT  &kp H            &hm LEFT_GUI N  &hm RCTRL E  &hm RIGHT_SHIFT I  &hm RIGHT_ALT O  &kp SQT
-&kp AT      &kp Z           &kp X             &kp C          &kp V           &kp B        &kp K_MUTE              &kp DOWN                         &kp K            &kp M           &kp COMMA    &kp DOT            &kp FSLH         &kp EQUAL
-                                              &kp LG(SPACE)  &kp LEFT_SHIFT  &lt 1 ENTER                                                           &lt 1 BACKSPACE  &kp SPACE       &kp MINUS
+&kp MINUS   &kp Z           &kp X             &kp C          &kp V           &kp B        &kp K_MUTE              &kp DOWN                         &kp K            &kp M           &kp COMMA    &kp DOT            &kp FSLH         &kp EQUAL
+                                              &kp LG(SPACE)  &kp LEFT_SHIFT  &lt 1 ENTER                                                           &lt 1 BACKSPACE  &kp SPACE       &kp AT_SIGN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -86,8 +86,8 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL    &kp AT       &kp HASH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET                            &kp LG(LS(NUMBER_4))              &kp UNDER  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp POUND  &kp BACKSPACE
-&trans  &kp DOLLAR  &kp PERCENT  &kp CARET      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS            &kp C_PREV  &kp C_PLAY_PAUSE      &kp C_NEXT  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &kp EQUAL
-&trans  &kp TILDE   &kp PIPE     &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                &kp C_AC_SCROLL_DOWN              &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp STAR   &trans
+&trans  &kp DOLLAR  &kp PERCENT  &kp CARET      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS            &kp C_PREV  &kp C_PLAY_PAUSE      &kp C_NEXT  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &kp ENTER
+&trans  &kp TILDE   &kp PIPE     &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                &kp C_AC_SCROLL_DOWN              &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp STAR   &kp EQUAL
                                  &trans         &trans                &trans                                                                         &trans     &kp NUMBER_0  &kp PERIOD
             >;
 
