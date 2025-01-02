@@ -124,8 +124,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - HOME
-  - PG UP
+  - {t: 'Gui+Sft+ [', s: 'Gui+Sft+ {'}
+  - {t: 'Gui+Sft+ ]', s: 'Gui+Sft+ }'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - RGB SAD
