@@ -20,7 +20,7 @@ layers:
   - {t: T, h: LGUI}
   - D
   - $$mdi:arrow-left-bold$$
-  - Sft+Gui+ 3
+  - Sft+Gui+3
   - $$mdi:arrow-right-bold$$
   - H
   - {t: N, h: '$$mdi:apple-keyboard-command$$'}
@@ -42,7 +42,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - Gui+ $$mdi:keyboard-space$$
+  - Gui+$$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
@@ -51,11 +51,11 @@ layers:
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
-  - '@'
   - '#'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - Gui+Sft+ 4
+  - '{'
+  - '}'
+  - '@'
+  - Gui+Sft+4
   - _
   - '7'
   - '8'
@@ -64,10 +64,10 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - $
-  - '%'
   - ^
   - (
   - )
+  - '%'
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
@@ -79,10 +79,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
-  - '|'
   - '&'
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - AC SCROLL DOWN
   - +
@@ -104,7 +104,7 @@ layers:
   - F3
   - F4
   - F5
-  - Ctl+Alt+ $$mdi:arrow-up-bold$$
+  - Ctl+Alt+$$mdi:arrow-up-bold$$
   - F6
   - F7
   - F8
@@ -117,15 +117,15 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - Alt+Ctl+ $$mdi:arrow-left-bold$$
-  - {t: 'Alt+Ctl+ $$mdi:keyboard-return$$', type: enter}
-  - Alt+Ctl+ $$mdi:arrow-right-bold$$
+  - Alt+Ctl+$$mdi:arrow-left-bold$$
+  - {t: 'Alt+Ctl+$$mdi:keyboard-return$$', type: enter}
+  - Alt+Ctl+$$mdi:arrow-right-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: 'Gui+Sft+ [', s: 'Gui+Sft+ {'}
-  - {t: 'Gui+Sft+ ]', s: 'Gui+Sft+ }'}
+  - {t: 'Gui+Sft+[', s: 'Gui+Sft+{'}
+  - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - RGB SAD
@@ -133,7 +133,7 @@ layers:
   - RGB EFF
   - RGB EFF
   - $$mdi:volume-off$$
-  - Alt+Ctl+ $$mdi:arrow-down-bold$$
+  - Alt+Ctl+$$mdi:arrow-down-bold$$
   - RGB SPD
   - RGB SPI
   - RGB BRD
