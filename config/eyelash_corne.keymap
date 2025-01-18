@@ -85,10 +85,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL    &kp AT       &kp HASH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET                            &kp LG(LS(NUMBER_4))              &kp UNDER  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp POUND  &kp BACKSPACE
-&trans  &kp DOLLAR  &kp PERCENT  &kp CARET      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS            &kp C_PREV  &kp C_PLAY_PAUSE      &kp C_NEXT  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &kp ENTER
-&trans  &kp TILDE   &kp PIPE     &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                &kp C_AC_SCROLL_DOWN              &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp STAR   &kp EQUAL
-                                 &trans         &trans                &trans                                                                         &trans     &kp NUMBER_0  &kp PERIOD
+&trans  &kp EXCL    &kp HASH       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT                               &kp LG(LS(NUMBER_4))              &kp UNDER  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp POUND  &kp BACKSPACE
+&trans  &kp DOLLAR  &kp CARET      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT              &kp C_PREV  &kp C_PLAY_PAUSE      &kp C_NEXT  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &kp ENTER
+&trans  &kp TILDE   &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans                &kp C_AC_SCROLL_DOWN              &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp STAR   &kp EQUAL
+                                   &trans                &trans                 &trans                                                                 &trans     &kp NUMBER_0  &kp PERIOD
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
